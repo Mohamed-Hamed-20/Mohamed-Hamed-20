@@ -28,8 +28,7 @@
 </p>
 <h3 align="left">🔥 My Stats :</h3>
 <br>
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Mohamed-Hamed-20&show_icons=true&locale=en&layout=compact" alt="Mohamed-Hamed-20" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Mohamed-Hamed-20&show_icons=true&locale=en" alt="Mohamed-Hamed-20" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohamed-Hamed-20&layout=compact" alt="Mohamed-Hamed-20" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Mohamed-Hamed-20&show_icons=true&theme=radical" alt="Mohamed-Hamed-20" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Mohamed-Hamed-20&" alt="Mohamed-Hamed" /></p>
