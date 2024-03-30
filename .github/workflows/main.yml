@@ -1,0 +1,34 @@
+name: Update Stats
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Update stats
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      # Add any setup steps you need here
+      - run: |
+          npm install github-readme-stats
+          node update_stats_script.js  # اسم السكربت الذي يقوم بتحديث الإحصائيات
+
+      - name: Commit files
+        run: |
+          git config --global user.name 'Your Name'
+          git config --global user.email 'you@example.com'
+          git add .
+          git commit -m "Update stats" || echo "No changes to commit"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
